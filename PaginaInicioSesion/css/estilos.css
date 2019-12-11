@@ -1,0 +1,68 @@
+
+body{
+    background-color: #D3B866;
+}
+body h1{
+    display: flex;
+    justify-content: center;
+    color: #7C151C;
+}
+.container {
+	max-width: 450px;
+	height: auto;
+	background-color: #7C151C;
+	margin: auto;
+	padding-bottom: 10px;
+	
+}
+
+.FormaTecho {
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+	border-top: solid 40px #D3B866;
+	margin-bottom: 10px;
+}
+
+.FormaTecho h2 {
+	color: #CAC8C8;
+	font-size: 20px;
+}
+
+h2 span {
+	color: #D3B866;
+}
+
+.formateo {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.btnform {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10px;
+}
+
+.input, .botonsub, .botonreset{
+	background-color: white;
+	padding: 10px;
+	margin: 10px;
+	border-color: wheat;
+	
+	
+}
+.botonsub, .botonreset {
+	width: 40%;	
+	background-color: #D3B866;
+	color: #7C151C;
+}
+
+.botonreset {
+    background-color: #D3B866;
+    color: #7C151C;
+}
+
+

@@ -1,0 +1,123 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    width: 100%;
+}
+header h1{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 0%;
+    width: 100%;
+    color: #D3B866;
+    background-color:#7C151C ;
+}
+ul.menu{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+ul.menu li{
+    
+    display: inline;
+    padding: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #6E1238;
+    color: white;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    background-color:#D3B866;
+}
+
+section{
+    width: 65%;
+}
+article{
+    margin-left: 3%;
+    margin-top: 0px;
+
+    
+}
+article.articulo2{
+    margin-bottom: 10px;
+    border-bottom: 2px solid gray ;
+}
+section h2{
+    margin-bottom: 0px;
+}
+p{
+    margin: 0px;
+}
+article.articulo1{
+    padding-bottom:10px ;
+    border-bottom: 2px solid gray ;
+    
+}
+article.articulo3{
+    margin-bottom: 20%;
+    
+}
+
+aside div.general{
+    background-color: #D3B866;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+aside{
+    display: flex;
+    width: 35%;
+    align-items: center;
+    margin-left: 5%;
+}
+
+div.general div.div1{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: #649A98;
+    background-image: url("../Images/Qué-es-un-Yountimers-Devaux-Coupe.jpg");
+    background-size: cover;
+
+}
+div.general div.div2{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: #649A98;
+    background-image: url("../Images/mercedes-sl-GETTY.jpg");
+    background-size: cover;
+
+}
+
+footer{
+
+    
+}

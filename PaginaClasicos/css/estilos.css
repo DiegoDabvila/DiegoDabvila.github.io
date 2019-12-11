@@ -1,0 +1,87 @@
+body{
+    margin: 0%;
+    background-color: #D3B866;
+}
+header h1{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 0%;
+    width: 100%;
+    color: #D3B866;
+    background-color:#7C151C ;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+ul.menu li{
+    
+    display: inline;
+    padding: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+nav.nav1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #6E1238;
+    color: white;
+}
+main{
+    background-color: #D3B866 ;
+    margin-top: 0%;
+}
+article.articulo1{
+    padding-bottom: 10px;
+    border-bottom: 2px solid gray;
+}
+article{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+aside{
+    display: flex;                
+    align-items: center;
+    width: auto;
+}
+aside div.general{
+    display: flex;
+    background-color: #D3B866;
+    width: 100%;
+    height: 200px;       
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 0px;
+}
+aside div.div1{
+    display: flex;
+    width: 45%;
+    margin-top: 220px;
+    height: 400px;
+    background-color: #649A98;
+    background-image: url("../../Images/prueba-ferrari-f40.jpg");
+    background-size: cover;
+}
+aside div.div2{    
+    display: flex;
+    width: 45%;
+    height: 400px;
+    margin-top: 220px;
+    background-color: #649A98;
+    background-image: url("../../Images/dddd.jpg");
+    background-size: cover;
+}
+
