@@ -3,12 +3,15 @@ body{
     background-color: #D3B866;
 }
 body h1{
+	
     display: flex;
     justify-content: center;
-    color: #7C151C;
-    text-decoration: none;
+	color: #7C151C;	
 }
-
+h1 a{
+	text-decoration: none;
+	color: #7C151C;
+}
 .container {
 	max-width: 450px;
 	height: auto;
@@ -34,6 +37,41 @@ body h1{
 h2 span {
 	color: #D3B866;
 }
+
+.formateo {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.btnform {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10px;
+}
+
+.input, .botonsub, .botonreset{
+	background-color: white;
+	padding: 10px;
+	margin: 10px;
+	border-color: wheat;
+	
+	
+}
+.botonsub, .botonreset {
+	width: 40%;	
+	background-color: #D3B866;
+	color: #7C151C;
+}
+
+.botonreset {
+    background-color: #D3B866;
+    color: #7C151C;
+}
+
+
+
 
 .formateo {
 	padding: 20px;
